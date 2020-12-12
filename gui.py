@@ -61,15 +61,15 @@ def push_card(string):
     a1 = temp[0]
     a2 = temp[1]
     a3 = temp[2]
-    a4 = temp[3]
-    a5 = temp[4]
-    a6 = temp[5]
+    a4 = 'Северные королевства'
+    a5 = temp[3]
+    a6 = temp[4]
     insert_card(a1, a2, a3, a4, a5, a6)
 
 def btn5():
     window = Toplevel()
     window.geometry("600x250+400+400")
-    label = Label(window, text="Введите id, название карты, расположение, фракцию, силу и способность")
+    label = Label(window, text="Введите id, название карты, расположение, силу и способность")
     label.pack()
     entry = Entry(window, width = 80)
     entry.pack()
