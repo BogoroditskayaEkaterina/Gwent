@@ -266,8 +266,7 @@ CREATE FUNCTION delete_chosen_card(del_power bigint)
 RETURNS void
 AS
 $$
-DELETE FROM cards
-WHERE power = del_power;
+DELETE FROM cards WHERE power = del_power;
 $$Language sql;
 '''
 
