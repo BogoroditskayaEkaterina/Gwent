@@ -174,7 +174,7 @@ Btn7 = Button(content, text="Очистить таблицу", width=15, height=
               font=helv, command = btn7)
 Btn8 = Button(content, text="Удаление бд", width=15, height=3, background="#370008", foreground="#ccc",
               font=helv, command = btn8)
-Btn9 = Button(content, text="Изменение имени", width=15, height=3, background="#370008", foreground="#ccc",
+Btn9 = Button(content, text="Изменение силы", width=15, height=3, background="#370008", foreground="#ccc",
               font=helv, command = btn9)
 Btn10 = Button(content, text="Создание бд", width=15, height=3, background="#370008", foreground="#ccc",
               font=helv, command = btn10)
