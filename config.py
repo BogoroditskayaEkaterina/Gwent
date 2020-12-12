@@ -1,0 +1,1 @@
+auth = {"user":"kate", "password":"1234"}
